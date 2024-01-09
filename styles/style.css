@@ -1,0 +1,46 @@
+.wrapper {
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.content{
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+.phrases {
+    margin-top: 180px;
+}
+
+#puzzle {
+    max-width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#puzzleItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.feedback {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#showNextPhraseButton {
+    display: none;
+}
